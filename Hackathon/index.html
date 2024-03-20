@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="de" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+    <link rel="shortcut icon" href="https://static.eliasfink.de/img/favicons/favicon.ico">
+    <link rel="manifest" href="https://static.eliasfink.de/img/favicons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.eliasfink.de/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://static.eliasfink.de/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://static.eliasfink.de/img/favicons/favicon-16x16.png">
+    <meta name="msapplication-config" content="https://static.eliasfink.de/img/favicons/browserconfig.xml">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Events &ndash; Fachschaft IT der HS Esslingen</title>
+
+</head>
+
+<body id="body" class="dark-mode">
+
+    <div id="logo">
+        <img id="logo-dark" src="logo_dark.svg" alt="Logo der Fachschaft IT">
+        <img id="logo-light" src="logo_light.svg" alt="Logo der Fachschaft IT">
+    </div>
+
+    <div id="toggle-button">
+        <a onclick="toggleColorMode()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/>
+            </svg>
+        </a>
+    </div>
+
+    <div id="container">
+        
+        <div id="left">
+            
+            <!-- PLAKAT ALS POSTER.JPG HOCHLADEN -->
+            <img id="poster" src="2023-11-08_FSIT_Hackathon_Plakat.jpg" alt="Plakat zum Event">
+        
+        </div>
+
+        <div id="right">
+            
+            <!-- TITEL DES EVENTS ANPASSEN -->
+            <h1 id="title">🚀 Coding Asse gesucht: Der gro&szlig;e Poker-Bot Hackathon! 🚀</h1>
+
+            <a id="button" href="Hackathon_ws_23_24.ics" target="_blank">Zum Kalender hinzufügen</a>
+
+            <!-- BESCHREIBUNG DES EVENTS ANPASSEN -->
+
+            <!-- <p>tl;dr: <br> Wann: 16.11.2023 <br> Uhrzeit: ab 18 Uhr <br> Wo: F1-208 (Fachschaftsraum IT)</p>-->
+
+
+            <p><b>Hackathon WS23/24: Entwickle den &uuml;berlegensten Poker-Bot!</b></p>
+            
+            <p>Wir laden dich und dein Team <b>16.11.2023 ab 18 Uhr</b> zu einer Nacht voller Code, Strategie und Spa&szlig; ein.<br />
+            Schlie&szlig;e dich uns an, um zu zeigen, dass du das Zeug zum ultimativen Poker-Bot-Meister hast!</p>
+            
+            <p>📅 <b>Ablauf:</b><br />
+            - <b>18:00 Uhr:</b> Kickoff &ndash; Lass die Spiele beginnen!<br />
+            - <b>18:30 Uhr:</b> Insider-Tipps &ndash; Ein Vortrag, der dir die Tools und Regeln n&auml;herbringt.<br />
+            - <b>Bis 24:00 Uhr:</b> Coden, t&uuml;fteln und triumphieren &ndash; Entwicklungsphase und das gro&szlig;e Finale, gefolgt von der Siegerehrung.</p>
+            
+            <p>🌙 <b>Open-End:</b> Verweilen, vernetzen und weiterentwickeln &ndash; die Nacht geh&ouml;rt uns!</p>
+            
+            <p>🍕 <b>F&uuml;r dein leibliches Wohl:</b> Snacks und Getr&auml;nke gehen aufs Haus!</p>
+            
+            <p><b>Deine Mission:</b><br />
+            Im Team von 3-4 Personen einen Poker-Bot zu programmieren, der die Konkurrenz aus dem Feld r&auml;umt.<br />
+            Unterst&uuml;tzung bei der Entwicklung und beim Setup der IDE ist gesichert.<br />
+            Ein Grundverst&auml;ndnis in einer Programmiersprache oder Poker gen&uuml;gt!</p>
+            
+            <p><b>W&auml;hle deine Waffe:</b><br />
+            - Java<br />
+            - Python<br />
+            - Go<br />
+            - Javascript<br />
+            - Typescript</p>
+            
+            <p>🏆 <b>Gewinne grandiose Preise:</b><br />
+            - Flucht aus dem Alltag mit einem Escape-Room-Gutschein<br />
+            - Power f&uuml;r deine Projekte mit Hetzner-Gutscheinen<br />
+            - ...und viele weitere &Uuml;berraschungen!</p>
+            
+            <p>🔥 <b>Sei dabei und zeige, was in dir steckt!</b> 🔥</p>
+            
+            <p>Bereit f&uuml;r die Herausforderung? Dann komm vorbei und verpasse nicht die Chance, den Jackpot an K&ouml;nnen, Wissen und Spa&szlig; zu knacken!</p>
+            
+            <p>Teilt diese Einladung in euren Netzwerken &ndash; ob Instagram, Telegram, Discord oder anderswo. Wir z&auml;hlen auf euren Enthusiasmus und eure Genialit&auml;t!</p>
+            
+            <p>*Lasst die Spiele beginnen und die besten Bots gewinnen!*</p>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleColorMode() {
+            document.getElementById("body").classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+
+</html>
