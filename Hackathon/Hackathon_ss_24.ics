@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240412T160757Z
+UID:1712938051187-58545@ical.marudot.com
+DTSTART;TZID=Europe/Berlin:20240517T180000
+DTEND;TZID=Europe/Berlin:20240518T120000
+SUMMARY:Hackathon SS24: Coding Asse gesucht: Der große BitWars-Bot Hackathon!
+URL:https://events.fachschaft-it.de/Hackathon/
+DESCRIPTION:🚀 Coding Asse gesucht: Der große BitWars-Bot Hackathon! 🚀\n\nHackathon SS24: Entwickle den überlegensten BitWars-Bot!\n\nWir laden dich und dein Team 17.05.2024 ab 18 Uhr zu einer Nacht voller Code\, Strategie und Spaß ein.\nSchließe dich uns an\, um zu zeigen\, dass du das Zeug zum ultimativen BitWars-Bot-Meister hast!\n\n📅 Ablauf:\n- 17.05 18:00 Uhr: Kickoff – Lass die Spiele beginnen!\n- 17.05 18:30 Uhr: Insider-Tipps – Ein Vortrag\, der dir die Tools und Regeln näherbringt.\n- Bis 18.05 12 Uhr: Verschiedenste Tourniere in denen die Bots sich gegeneinander beweisen können!\n\n🌙 Open-End: Verweilen\, vernetzen und weiterentwickeln – die Nacht gehört uns!\nSchlafplätze gibt es für alle genug. Isomatten etc müssen aber selbst mitgebracht werden!\n\n🍕 Für dein leibliches Wohl: Snacks und Getränke gehen aufs Haus!\n\n🚻 Bringt gerne Freunde mit: Jeder ist willkommen\, ob Student an der Hochschule oder nicht.\n\nDeine Mission:\nIm Team von 3-4 Personen einen BitWars-Bot zu programmieren\, der der Konkurrenz die Sicherungen druchbrennen lässt.\nUnterstützung bei der Entwicklung und beim Setup der IDE ist gesichert.\nEin Grundverständnis in einer Programmiersprache genügt! Die Regeln von BitWars werden am Abend noch erklärt!\n\nWähle deine Waffe:\n- Java\n- Python\n- Go\n- C#\n- Javascript\n- Typescript\n- Rust\n\n🏆 Gewinne grandiose Preise!\n\n🔥 Sei dabei und zeige\, was in dir steckt! 🔥\n\nBereit für die Herausforderung? Dann komm vorbei und verpasse nicht die Chance\, den Jackpot an Können\, Wissen und Spaß zu knacken!\n\nTeilt diese Einladung in euren Netzwerken – ob Instagram\, Telegram\, Discord oder anderswo. Wir zählen auf euren Enthusiasmus und eure Genialität!\n\n#HackathonSS24 #CodeBattle #BitWarsBotChallenge #FSIT #hsesslingen\n\n*Lasst die Spiele beginnen und die besten Bots gewinnen!*\n\nWeiter Infos: https://events.fachschaft-it.de/Hackathon/
+LOCATION:F1.-208
+END:VEVENT
+END:VCALENDAR
