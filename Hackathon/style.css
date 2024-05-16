@@ -104,6 +104,13 @@ p {
     margin-bottom: 12px;
 }
 
+/* links */
+
+a {
+    color: var(--red);
+    text-decoration: none;
+}
+
 
 
 /* Dark mode */
