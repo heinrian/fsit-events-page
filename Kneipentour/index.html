@@ -16,64 +16,77 @@
 
 <body id="body" class="dark-mode">
 
-    <div id="logo">
-        <img id="logo-dark" src="/cdn/logo_dark.svg" alt="Logo der Fachschaft IT">
-        <img id="logo-light" src="/cdn/logo_light.svg" alt="Logo der Fachschaft IT">
+<div id="logo">
+    <img id="logo-dark" src="/cdn/logo_dark.svg" alt="Logo der Fachschaft IT">
+    <img id="logo-light" src="/cdn/logo_light.svg" alt="Logo der Fachschaft IT">
+</div>
+
+<div id="toggle-button">
+    <a onclick="toggleColorMode()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/>
+        </svg>
+    </a>
+</div>
+
+<div id="container">
+
+    <div id="left">
+
+        <!-- PLAKAT ALS POSTER.JPG HOCHLADEN -->
+        <img id="poster" src="Kneipentour_1_WS24_25.jpg" alt="Plakat zum Event">
+
     </div>
 
-    <div id="toggle-button">
-        <a onclick="toggleColorMode()">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/>
-            </svg>
-        </a>
-    </div>
+    <div id="right">
 
-    <div id="container">
-        
-        <div id="left">
-            
-            <!-- PLAKAT ALS POSTER.JPG HOCHLADEN -->
-            <img id="poster" src="Kneipentour_WS23.png" alt="Plakat zum Event">
-        
+        <!-- TITEL DES EVENTS ANPASSEN -->
+        <h1 id="title">Ersti-Kneipentour im WiSe24/25</h1>
+
+        <!--
+        <a id="button" href="Kneipentour.ics" target="_blank">Zum Kalender hinzufügen</a>
+-->
+        <!-- BESCHREIBUNG DES EVENTS ANPASSEN -->
+
+        <p><b>Die Fachschaften IT und SAPB laden ein zur Weihnachts-Kneipentour im WiSe23/24 ein!</b></p>
+
+
+        <div style="margin-top: 50px; border-left: solid red 3px; padding-left: 5px">
+            <p><b>Wann:</b> Donnerstag, 26. September 2024</p>
+            <p><b>Treffpunkt</b> 18:00 Uhr Komma Esslingen (<a href="https://maps.app.goo.gl/ZxPkYi2KfcSZn9tYA"
+                                                               target="_blank">Link</a>) <br> Dort werden wir die
+                Gruppen einteilen und anschließend in die Bars aufbrechen.</p>
+            <p><b>Wer:</b> Du bist willkommen - Egal welcher Fakultät/Fachschaft du angehörst!</p>
+        </div>
+        <div style="margin-top: 50px">
+            <p>Es ist wieder so weit, wir laden dich zu unserer ersten Kneipentour im Wintersemester 24/25 ein!!</p>
+
+            <p>Du bist willkommen - Egal welcher Fakultät/Fachschaft du angehörst!</p>
+
+            <p>Neues Semester, neues Konzept => mehr Spaß!</p>
+
+            <p>Du wirst in kleineren Gruppen die Bars von Esslingen kennenlernen und dort mit tollen Angeboten
+                willkommen geheißen.</p>
+            <p>Jede Stunde wirst du eine neue Location zum verweilen entdecken und dabei deine neuen Kommiliton:innen
+                besser kennenlernen.</p>
+
+            <p>Komm vorbei und feier mit uns den Semesterstart.</p>
+
+            <p>Wir freuen uns auf dein Kommen!</p>
+
+            <p><b>Eure Fachschaften IT & SABP</b></p>
         </div>
 
-        <div id="right">
-            
-            <!-- TITEL DES EVENTS ANPASSEN -->
-            <h1 id="title">Weihnachts-Kneipentour im WiSe23/24</h1>
-
-            <a id="button" href="Kneipentour.ics" target="_blank">Zum Kalender hinzufügen</a>
-
-            <!-- BESCHREIBUNG DES EVENTS ANPASSEN -->
-
-            <p><b>Die Fachschaften IT und SAPB laden ein zur Weihnachts-Kneipentour im WiSe23/24 ein!</b></p>
-          
-
-	    <p><b>W𝗮𝗻𝗻:</b> Donnerstag, 14. Dezember 2023</p>
-	    <p><b>𝗧𝗿𝗲𝗳𝗳𝗽𝘂𝗻𝗸𝘁:</b> 16:45 Uhr Touri Info am Marktplatz Esslingen</p>
-            <p><b>W𝗲𝗿:</b> alle Studis der Hochschule Esslingen - insbesondere Fakultät IT & SABP</p>
-
-<p>Die Kneipentour ist der perfekte Ort, um euch bei einem kühlen Bier mit euren Kommilitonen zu vernetzen, Studis aus anderen Semestern kennenzulernen und coole Leute zu treffen!
-Besonders für alle Erstsemester ist die Kneipentour eine super Gelegenheit, die Kommilitonen kennenzulernen. </p>
-
-<p>Es ist keine Anmeldung erforderlich, der Eintritt ist frei.</p>
-<p>Es gibt 100 Weihnachtsmützen Gratis! </p>
-
-<p>Wir freuen uns auf euch!</p>
-<p>In diesem Sinne: bis zum 14. Dezember!</p>
-
-<p><b>Eure Fachschaften IT & SABP</b></p>
-  
-        </div>
-
     </div>
 
-    <script>
-        function toggleColorMode() {
-            document.getElementById("body").classList.toggle("dark-mode");
-        }
-    </script>
+</div>
+
+<script>
+    function toggleColorMode() {
+        document.getElementById("body").classList.toggle("dark-mode");
+    }
+</script>
 
 </body>
 
