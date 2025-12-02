@@ -2,6 +2,10 @@
     --red: #DA3359;
     --text-light: #161A1D;
     --background-dark: #262626;
+    --link: rgb(76, 66, 255);
+    --link-dark: darkorange;
+    --backdrop: rgba(0, 0, 0, 0.09);
+    --backdrop-dark: rgba(255, 255, 255, 0.03);
   }
 
 * {
@@ -9,11 +13,19 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     color: var(--text-light);
     font-size: 16px;
     line-height: 1.6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -57,6 +69,7 @@ body {
 /* Container */
 
 #container {
+    flex: 1;
     display: flex;
     max-width: 1200px;
     margin: 80px auto;
@@ -104,6 +117,26 @@ p {
     margin-bottom: 12px;
 }
 
+#footer {
+    width: 100%;
+
+    text-align: center;
+    justify-content: center;
+
+    padding: 0.5em 0;
+    margin-top: auto;
+
+    background: linear-gradient(to top, var(--backdrop), rgba(0,0,0,0));
+}
+#footer p{
+    font-weight: bold;
+}
+
+.link {
+    color: var(--link);
+    text-decoration: none;
+}
+
 
 
 /* Dark mode */
@@ -127,6 +160,14 @@ body.dark-mode #logo-light {
 
 body.dark-mode #toggle-button svg {
     fill: #fff;
+}
+
+body.dark-mode .link {
+    color: var(--link-dark);
+}
+
+body.dark-mode #footer {
+    background: linear-gradient(to top, var(--backdrop-dark), rgba(0,0,0,0));
 }
 
 
